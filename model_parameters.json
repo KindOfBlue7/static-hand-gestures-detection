@@ -1,0 +1,6 @@
+{
+  "model_input_dim": [64, 64],
+  "threshold_min": [50, 39, 0],
+  "threshold_max": [255, 255, 255],
+  "roi_size": [250, 250]
+}
