@@ -103,6 +103,8 @@
       <workItem from="1606478573695" duration="7120000" />
       <workItem from="1606558065671" duration="1701000" />
       <workItem from="1606647949943" duration="15122000" />
+      <workItem from="1606727819681" duration="6507000" />
+      <workItem from="1606737254983" duration="1074000" />
     </task>
     <servers />
   </component>
@@ -118,38 +120,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="459" y="273" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606400700399" />
-    <state width="1877" height="148" key="GridCell.Tab.0.bottom" timestamp="1606689466326">
+    <state width="1877" height="148" key="GridCell.Tab.0.bottom" timestamp="1606738298807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606689466326" />
-    <state width="1877" height="148" key="GridCell.Tab.0.center" timestamp="1606689466326">
+    <state width="1877" height="148" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606738298807" />
+    <state width="1877" height="148" key="GridCell.Tab.0.center" timestamp="1606738298807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606689466326" />
-    <state width="1877" height="148" key="GridCell.Tab.0.left" timestamp="1606689466326">
+    <state width="1877" height="148" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606738298807" />
+    <state width="1877" height="148" key="GridCell.Tab.0.left" timestamp="1606738298807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606689466326" />
-    <state width="1877" height="148" key="GridCell.Tab.0.right" timestamp="1606689466326">
+    <state width="1877" height="148" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606738298807" />
+    <state width="1877" height="148" key="GridCell.Tab.0.right" timestamp="1606738298807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606689466326" />
-    <state width="1877" height="316" key="GridCell.Tab.1.bottom" timestamp="1606689466321">
+    <state width="1877" height="148" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606738298807" />
+    <state width="1877" height="316" key="GridCell.Tab.1.bottom" timestamp="1606738139489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606689466321" />
-    <state width="1877" height="316" key="GridCell.Tab.1.center" timestamp="1606689466321">
+    <state width="1877" height="316" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606738139489" />
+    <state width="1877" height="316" key="GridCell.Tab.1.center" timestamp="1606738139489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606689466321" />
-    <state width="1877" height="316" key="GridCell.Tab.1.left" timestamp="1606689466321">
+    <state width="1877" height="316" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606738139489" />
+    <state width="1877" height="316" key="GridCell.Tab.1.left" timestamp="1606738139489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606689466321" />
-    <state width="1877" height="316" key="GridCell.Tab.1.right" timestamp="1606689466321">
+    <state width="1877" height="316" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606738139489" />
+    <state width="1877" height="316" key="GridCell.Tab.1.right" timestamp="1606738139489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606689466321" />
+    <state width="1877" height="316" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606738139489" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -163,7 +165,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/static_hand_gestures_detection$main.coverage" NAME="main Coverage Results" MODIFIED="1606689189459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/static_hand_gestures_detection$GestureDetection.coverage" NAME="GestureDetection Coverage Results" MODIFIED="1606688908114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/static_hand_gestures_detection$main.coverage" NAME="main Coverage Results" MODIFIED="1606738298799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/static_hand_gestures_detection$GestureDetection.coverage" NAME="GestureDetection Coverage Results" MODIFIED="1606735282847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

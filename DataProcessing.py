@@ -12,6 +12,7 @@ class DataProcessing(QThread):
     camera_feed_sig = pyqtSignal(QImage)
     roi_bin_sig = pyqtSignal(QImage)
     record_end_sig = pyqtSignal(bool)
+    gesture_detected_sig = pyqtSignal(int)
 
     # camera feed variables
     cap = cv2.VideoCapture(2)
@@ -76,6 +77,10 @@ class DataProcessing(QThread):
                 convertToQtFormat = QImage(skin_region.data, w, h, bytesPerLine, QImage.Format_Grayscale8)
                 p = convertToQtFormat.scaled(64, 64)
                 self.roi_bin_sig.emit(p)
+
+                if self.detect:
+                    gesture_detected = self.Detection.predict(skin_region)
+                    self.gesture_detected_sig.emit(gesture_detected[0][0])
 
                 if not self.record_end:
                     if 0 <= rec < 500:

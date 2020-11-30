@@ -46,10 +46,13 @@ class App(QWidget):
 
         self.init_UI()
 
-    def record_end_sig(self, record_end):
+    def on_record_end_sig(self, record_end):
         self.record_end = True if record_end else False
         self.button2.setChecked(False)
         print("Record_end signal status: " + str(self.record_end))
+
+    def on_gesture_detected_sig(self, gesture):
+        print(gesture)
 
     @pyqtSlot(QImage)
     def set_camera_feed(self, image):
@@ -168,7 +171,7 @@ class App(QWidget):
         # roi_bin label
         self.roi_bin.move(640-64, 360-64)
         self.roi_bin.resize(64, 64)
-        self.roi_bin.hide()
+        # self.roi_bin.hide()
 
         # create a HSV range control label
 
@@ -223,7 +226,8 @@ class App(QWidget):
         th = DataProcessing.DataProcessing(self)
         th.camera_feed_sig.connect(self.set_camera_feed)
         th.roi_bin_sig.connect(self.set_roi_bin)
-        th.record_end_sig.connect(self.record_end_sig)
+        th.record_end_sig.connect(self.on_record_end_sig)
+        th.gesture_detected_sig.connect(self.on_gesture_detected_sig)
         self.toggle_hsv_sig.connect(th.on_toggle_hsv_sig)
         self.record_start_sig.connect(th.on_record_start_sig)
         self.detect_start_sig.connect(th.on_detect_start_sig)
